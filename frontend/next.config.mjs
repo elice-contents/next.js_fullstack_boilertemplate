@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
+    assetPrefix: process.env.ASSET_PREFIX || '',
 };
 
 export default nextConfig;
